@@ -14,5 +14,5 @@ let lines =[1,2,3,4,5,6,7,8,9];
 
 var N = parseInt(lines.shift());
 for (let i=0; i< lines.length; i++) {
-	if ( 5<lines[i] && lines[i]<2000 && lines[i]%2 ===0) console.log(lines[i]**lines[i], " , ", lines[i]);    //escreva sua lógica nos espaços em branco
+	if ( 5<lines[i] && lines[i]<2000 && lines[i]%2 ===0) console.log(lines[i]*lines[i], " , ", lines[i]);    //escreva sua lógica nos espaços em branco
 }
